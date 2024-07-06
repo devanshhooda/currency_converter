@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-let currencyInfoURL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/';
+let currencyInfoURL = 'https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies';
 
 const useCurrencyInfo = (currency: string) => {
     const [currencyData, setCurrencyData] = useState({});
